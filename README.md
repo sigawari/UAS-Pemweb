@@ -3,7 +3,11 @@
 Selamat datang di repositori proyek Ujian Akhir Semester (UAS) untuk mata kuliah Pemrograman Web 2024/2025. Proyek ini mencakup berbagai aspek pengembangan web, termasuk pemrograman sisi klien, pemrograman sisi server, manajemen basis data, dan manajemen state.
 
 ## 🌐 **Link Hasil Hosting**
-[Klik di sini untuk melihat hasil aplikasi](#)
+[Klik di sini untuk melihat hasil aplikasi](https://pendaftaran-sempro-uaspemweb.netlify.app/)
+
+> **Catatan Login:**
+> - **Username:** admin  
+> - **Password:** password
 
 ---
 
@@ -15,7 +19,7 @@ Selamat datang di repositori proyek Ujian Akhir Semester (UAS) untuk mata kuliah
    ```
    Gantilah `username` dan `nama-repositori` dengan informasi GitHub Anda.
 
-2. **Masuk ke Direktori Proyek**  
+2. **Masuk ke Direktori Proyek**
    ```bash
    cd nama-repositori
    ```
@@ -112,20 +116,21 @@ Selamat datang di repositori proyek Ujian Akhir Semester (UAS) untuk mata kuliah
 
 ## 🌐 **Hosting Aplikasi dengan Netlify**
 
-### 1. **Deploy ke Netlify**
-   - Buka Netlify dan buat akun jika belum memiliki.
-   - Pilih opsi `New Site from Git`.
+### Deploy ke Netlify
+
+1. **Buka Netlify dan buat akun jika belum memiliki.**
+2. **Pilih opsi `New Site from Git`.**
    - Hubungkan repositori GitHub Anda dengan Netlify.
    - Tunggu hingga proses deploy selesai.
 
-### 2. **Konfigurasi Build**
+3. **Konfigurasi Build**
    - Pada bagian Build Settings, atur command dan directory build:
-     - **Build Command**: `npm run build`
-     - **Publish Directory**: `dist`
+     - **Build Command:** `npm run build`
+     - **Publish Directory:** `dist`
 
-### 3. **Tambahkan Environment Variables (Jika Diperlukan)**
+4. **Tambahkan Environment Variables (Jika Diperlukan)**
    - Buka `Site Settings > Environment Variables`.
    - Tambahkan variabel yang diperlukan seperti URL API atau kunci rahasia.
 
-### 4. **Dapatkan URL Hosting**
-   - Setelah deploy selesai, Anda akan mendapatkan URL seperti `https://namasite.netlify.app`.
+5. **Dapatkan URL Hosting**
+   - Setelah deploy selesai, Anda akan mendapatkan URL seperti `https://namasite.netlify.app`. Ubah URL ini sesuai kebutuhan Anda.
